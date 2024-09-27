@@ -4,7 +4,7 @@ Lab 3 by:Andrew Brown
 Section 1: On-Premises Solution Design
 
 Current Monolithic on prem design:
-![Monolithic on prem Diagram](https://raw.githubusercontent.com/brow1063/CST8913Labs/main/Onprem.png)
+![Monolithic on prem Diagram](https://raw.githubusercontent.com/brow1063/CST8913Labs/main/Lab3/Onprem.png)
 
 Components that need to be migrated:
 Web Application - PaaS
