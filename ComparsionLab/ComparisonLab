@@ -1,1 +1,7 @@
+Comparison Lab (Google Cloud, AWS and Azure)
+By Andrew Brown
 
+|#|Description|AWS|Azure|Google|
+|1|A compute service that provides scalable virtual machines for running applications.|EC2|Virtual Machine|Compute Engine|
+|2|An object storage service used to store and retrieve data, commonly used for backups and static website content.|S3|Blob Storage|Cloud Storage|
+|3|
