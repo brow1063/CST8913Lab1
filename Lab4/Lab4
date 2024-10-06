@@ -1,7 +1,7 @@
 Lab 4 Design Rehosting Migration V2 By Andrew Brown
 
 1. Design Rehosting Migration Diagram
-![Design Rehosting Migration Diagram](https://github.com/brow1063/CST8913Labs/blob/main/Lab4/Lab4Diagram.jpg))
+![Design Rehosting Migration Diagram](https://github.com/brow1063/CST8913Labs/blob/main/Lab4/Lab4Diagram.jpg)
 
 2. A description of the target architecture
 The architecture will be comprised of 4 seperate items the are, Azure Kubernetes Service(AKS), a Managed SQL Database, a Azure Container Registry(ACR) and Network and security through VNet. The Scalable Web Application will be hosted on multiple pods within an Azure Kubernetes Service to ensure high scalability and availability. The AKS will have a load balancer that distributes traffic accross all pods allowing for the application to remain up while there is high traffic. The SQL Server Database will be transfered to an Azure Mangaged Database service which offers backups, geo replication and disater recovery incase of failures or maintenance. The Docker images for the web application will be stored on an Azure Container Registry which will act as version control and deployment for the pods. Finally, all of the services above will be housed within a VNet to enable secure communication between applications.
