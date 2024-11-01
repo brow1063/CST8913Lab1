@@ -1,4 +1,4 @@
-Lab 9 : Cloud Cost Estimation for Enterprise Application Migration
+## Lab 9 : Cloud Cost Estimation for Enterprise Application Migration
 Cloud platform: GCP
 By: Andrew Brown 04081088
 
